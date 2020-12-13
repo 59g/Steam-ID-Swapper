@@ -2,6 +2,7 @@
 Swaps a steam vanity URL from one browser to another
 
 *Chrome recommended
+
 How to use: 
 
 1. Open chrome + an incognito window with the main window
