@@ -1,4 +1,4 @@
-# Steam-Swapper
+# Steam-ID-Swapper
 Swaps a steam vanity URL from one browser to another
 
 *Chrome recommended
