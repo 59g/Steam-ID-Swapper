@@ -16,7 +16,7 @@ Loop, 1
 
 
 MouseClick, L, Separate Coords of your screen for first button here ex. x, y
-Sleep, 70
+Sleep, 64
 
 MouseClick, L, Separate Coords of your screen for second button here ex. x, y
 
@@ -33,7 +33,7 @@ Suspend, permit
 
 MouseClick, L, Separate Coords of your screen for second button here ex. x, y
 
-Sleep, 70
+Sleep, 64
 
 MouseClick, L, Separate Coords of your screen for first button here ex. x, y
 
