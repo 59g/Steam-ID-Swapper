@@ -1,15 +1,15 @@
 F::
 	CoordMode, Mouse, Screen
 	Sleep, 125
-	MouseMove, 375, 100, 25
+	MouseMove, x y s
 	Sleep, 125
-	MouseMove, 375, 235, 25
+	MouseMove, x y s
 	Sleep, 125
-	MouseMove, 375, 370, 25
+	MouseMove, x y s
 	Sleep, 125
-	MouseMove, 375, 505, 25
+	MouseMove, x y s
         Sleep, 125
-        MouseMove, 375, 640, 25
+        MouseMove, x y s
 
 
 F12::ExitApp
