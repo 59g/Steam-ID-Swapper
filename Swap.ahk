@@ -1,13 +1,12 @@
 ---GUI---
 OnMessage(0x201, "WM_LBUTTONDOWN")
 Gui, show, x510 y0 w145 h40
-Gui,1:-Border +ToolWindow -Theme +LastFound
+Gui,1:-Border +ToolWindow -Theme +LastFound +AlwaysOnTop
 Gui, Margin, 8, 6
 Gui, Add, Button, w130 gF12, Exit lol,
 Gui, Add, Button, w130 gF1, Swappa
 Gui, Font, s18
 Gui, Color, Black
-Gui, +AlwaysOnTop
 
 WM_LBUTTONDOWN() {
 
@@ -21,19 +20,21 @@ CoordMode, Mouse, Screen
 
 f12::ExitApp
 
+9::Suspend
+
 
 F1::
-Suspend, permit
 {
 
-MouseClick, L, 375, 100
-Mouseclick, L, 375, 235
+MouseClick, L, x y
+Sleep, 5
+Mouseclick, L, x y
 Sleep, 8
-Mouseclick, L, 375, 370
+Mouseclick, L, x y 
 Sleep, 12
-MouseClick, L, 375, 505
+MouseClick, L, x y
 Sleep, 1
-MouseClick, L, 375, 640
+MouseClick, L, x y
 
 
 }
