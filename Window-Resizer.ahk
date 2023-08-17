@@ -45,7 +45,7 @@ CenterActiveWindow1()
     windowWidth := A_ScreenWidth * 0.1
     windowHeight := A_ScreenHeight * 0.1
     WinGetTitle, windowName, A
-    WinMove, %windowName%, , 0, 0, windowWidth, windowHeight
+    WinMove, %windowName%, , 0, y, windowWidth, windowHeight
 
 }
 
@@ -54,7 +54,7 @@ CenterActiveWindow2()
     windowWidth := A_ScreenWidth * 0.1
     windowHeight := A_ScreenHeight * 0.1
     WinGetTitle, windowName, A
-    WinMove, %windowName%, , 0, 135, windowWidth, windowHeight
+    WinMove, %windowName%, , 0, y, windowWidth, windowHeight
 }
 
 CenterActiveWindow3()
@@ -62,7 +62,7 @@ CenterActiveWindow3()
     windowWidth := A_ScreenWidth * 0.1
     windowHeight := A_ScreenHeight * 0.1
     WinGetTitle, windowName, A
-    WinMove, %windowName%, , 0, 270, windowWidth, windowHeight
+    WinMove, %windowName%, , 0, y, windowWidth, windowHeight
 }
 
 CenterActiveWindow4()
@@ -70,7 +70,7 @@ CenterActiveWindow4()
     windowWidth := A_ScreenWidth * 0.1
     windowHeight := A_ScreenHeight * 0.1
     WinGetTitle, windowName, A
-    WinMove, %windowName%, , 0, 405, windowWidth, windowHeight
+    WinMove, %windowName%, , 0, y, windowWidth, windowHeight
 }
 
 CenterActiveWindow5()
@@ -78,6 +78,6 @@ CenterActiveWindow5()
 windowWidth := A_ScreenWidth * 0.1
 windowHeight := A_ScreenHeight * 0.1
 WinGetTitle, windowName, A 
-WinMove, %windowName%, , 0, 540, windowWidth, windowHeight
+WinMove, %windowName%, , 0, y, windowWidth, windowHeight
 }
 ---RESIZER---
