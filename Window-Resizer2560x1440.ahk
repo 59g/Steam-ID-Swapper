@@ -19,12 +19,12 @@ Run chrome.exe
 sleep, 25
 Run chrome.exe --incognito
 Sleep, 500
-MouseClick, L, 270, 15
+MouseClick, L, x, y
 Sleep, 80
-MouseClick, L, 510, 15
+MouseClick, L, x, y
 Sleep, 80
-MouseClick, L, 750, 15
-MouseClick, L, 100, 25
+MouseClick, L, x, y
+MouseClick, L, x, y
 Sleep, 50
 
 Send, steamcommunity.com/login {Enter}
