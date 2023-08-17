@@ -1,12 +1,7 @@
----GUI---
-OnMessage(0x201, "WM_LBUTTONDOWN")
-Gui, show, x510 y0 w145 h40
-Gui,1:-Border +ToolWindow -Theme +LastFound +AlwaysOnTop
-Gui, Margin, 8, 6
-Gui, Add, Button, w130 gF12, Exit lol,
-Gui, Add, Button, w130 gF1, Swappa
-Gui, Font, s18
-Gui, Color, Black
+#NoEnv
+#Warn
+SendMode Input
+SetWorkingDir %A_ScriptDir%
 
 WM_LBUTTONDOWN() {
 
