@@ -18,5 +18,5 @@ How to use:
 //*The normal chrome window will be used to release the ID whilst the other 4 incognito tabs will be the same account that will attempt to claim the ID 4 times so it doesn't  mess up the claim request.*//
 
 
-Done, you have successfully swapped your ID! Congratulations!  You are no longer a handswaptard that will complain after losing his id because he missclicked the button or delayed the req.
+Done, you have successfully swapped your ID! Congratulations!  You are no longer a handswaptard that will complain after losing his id because he missclicked the button.
 
